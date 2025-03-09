@@ -1,0 +1,31 @@
+niveles:
+  - id: 1
+    nombre: "Desafío de Nicodemo"
+    personaje: "Nicodemo"
+    dificultad: "Fácil"
+    preguntas:
+      - categoria: "¿Quién dijo?"
+        pregunta: "¿Quién dijo 'Yo soy el camino, la verdad y la vida'?"
+        opciones: ["Moisés", "Pablo", "Jesús", "Pedro"]
+        respuesta: "Jesús"
+      - categoria: "Completar la palabra"
+        pregunta: "En el principio creó Dios los _____ y la _____."
+        respuesta: ["cielos", "tierra"]
+    dialogos:
+      intro: "Bienvenido, viajero. Estás listo para aprender?"
+      exito: "¡Muy bien! Has respondido con sabiduría."
+      fallo: "No te preocupes, sigue aprendiendo."
+
+  - id: 2
+    nombre: "Reto de Salomón"
+    personaje: "Salomón"
+    dificultad: "Media"
+    preguntas:
+      - categoria: "Ordenar eventos"
+        pregunta: "Ordena estos eventos de la vida de Moisés."
+        opciones: ["Zarza ardiente", "Éxodo", "Cruce del Mar Rojo", "Diez Mandamientos"]
+        respuesta: ["Zarza ardiente", "Éxodo", "Cruce del Mar Rojo", "Diez Mandamientos"]
+    dialogos:
+      intro: "La sabiduría es para aquellos que la buscan. ¿Aceptas el desafío?"
+      exito: "¡Has respondido con prudencia!"
+      fallo: "Incluso los sabios cometen errores. Inténtalo de nuevo."
