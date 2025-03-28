@@ -11,12 +11,17 @@ config_version=5
 [application]
 
 config/name="Biblia Quiz"
+run/main_scene="uid://bs6qe4ocg36d0"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [autoload]
 
 GameData="*res://scripts/game_data.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray()
 
 [rendering]
 
