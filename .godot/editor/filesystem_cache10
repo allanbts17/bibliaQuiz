@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1743198985
+::res://::1745009608
 icon.svg::CompressedTexture2D/CompressedTexture2D::1432782331328523306::1741391550::1741557289::1::::<><><>0<>0<>9ecbf9a560bd70b93863d86dc2b733d8<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://addons/::1741652633
 ::res://addons/godot-yaml/::1741652630
@@ -296,12 +296,12 @@ CMakeLists.txt::TextFile/TextFile::-1::1741554032::0::1::::<><><>0<>0<><>::
 ::res://addons/godot-yaml/src/variants/::1741652630
 ::res://assets/::1741391713
 ::res://data/::1742964667
-challenges.yaml::TextFile::-1::1743140418::0::1::::<><><>0<>0<><>::
+challenges.yaml::TextFile/TextFile::-1::1743199912::0::1::::<><><>0<>0<><>::
 ::res://fonts/::1741391733
 ::res://saves/::1741391738
-::res://scenes/::1743140473
-main.tscn::PackedScene::3714795739517861371::1743140473::0::1::::<><><>0<>0<><>::uid://bn6sd4wer5ran::::res://scripts/main.gd
-::res://scripts/::1743139962
+::res://scenes/::1745006479
+main.tscn::PackedScene::3714795739517861371::1745006479::0::1::::<><><>0<>0<><>::uid://bn6sd4wer5ran::::res://scripts/main.gd
+::res://scripts/::1743214335
 game_data.gd::GDScript/GDScript::2731776561970777078::1741491349::0::1::::<>Node<><>0<>0<><>::
 main.gd::GDScript/GDScript::3363971181983395665::1742954462::0::1::::<>Node<><>0<>0<><>::
-yaml_parser.gd::GDScript::7342995756858152630::1743139962::0::1::::YamlParser<>Node<><>0<>0<><>::
+yaml_parser.gd::GDScript/GDScript::7342995756858152630::1743214335::0::1::::YamlParser<>Node<><>0<>0<><>::

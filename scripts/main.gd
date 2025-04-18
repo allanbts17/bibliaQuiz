@@ -6,7 +6,8 @@ var yaml_data = {}
 var parser = YamlParser.new()
 
 func _ready():
-	parser.parse_yaml(YAML_PATH)
+	pass
+	#parser.parse_yaml(YAML_PATH)
 	#yaml_data = parse_yaml(YAML_PATH)
 	#print(yaml_data)
 

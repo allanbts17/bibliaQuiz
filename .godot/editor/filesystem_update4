@@ -1,2 +1,3 @@
 res://scenes/main.tscn
 res://data/challenges.yaml
+res://scripts/main.gd
