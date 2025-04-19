@@ -1,0 +1,57 @@
+{
+    "levels": [
+        {
+            "id": 0,
+            "name": "Level 0",
+            "challenges": {
+                "id": 0,
+                "character": "Aaron",
+                "dificulty": 1,
+                "category": "qd",
+                "points": 100,
+                "question": "¿Quién dijo \"Yo soy el camino, la verdad y la vida\"?",
+                "options": [
+                    "Moisés",
+                    "Jesús",
+                    "Mahoma",
+                    "Buda"
+                ],
+                "answer": "Jesús"
+            }
+        }
+    ],
+    "categories": [
+        {
+            "id": "qd",
+            "name": "¿Quién dijo?"
+        },
+        {
+            "id": "elcc",
+            "name": "Escojer la cita correcta"
+        },
+        {
+            "id": "clp",
+            "name": "Completar la palabra"
+        },
+        {
+            "id": "qs",
+            "name": "¿Quién soy?"
+        },
+        {
+            "id": "vof",
+            "name": "Verdadero o Falso"
+        },
+        {
+            "id": "oll",
+            "name": "Ordenar las letras"
+        },
+        {
+            "id": "aep",
+            "name": "Adivina el personaje"
+        },
+        {
+            "id": "oe",
+            "name": "Ordenar eventos"
+        }
+    ]
+}
