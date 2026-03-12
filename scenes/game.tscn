@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://d3iqhr5dmygvs"]
+
+[ext_resource type="Texture2D" uid="uid://cfp27gic8vjy1" path="res://assets/background_test1.png" id="1_uwrxv"]
+
+[node name="Control" type="Control" unique_id=1550316644]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=700145699]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_uwrxv")

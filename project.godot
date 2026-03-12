@@ -8,16 +8,29 @@
 
 config_version=5
 
+[animation]
+
+compatibility/default_parent_skeleton_in_mesh_instance_3d=true
+
 [application]
 
 config/name="Biblia Quiz"
 run/main_scene="uid://bs6qe4ocg36d0"
-config/features=PackedStringArray("4.4", "GL Compatibility")
+config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [autoload]
 
 GameData="*res://scripts/game_data.gd"
+GlobalData="*uid://vo5ohgc5yngt"
+
+[display]
+
+window/size/viewport_width=1080
+window/size/viewport_height=1920
+window/size/window_width_override=360
+window/size/window_height_override=640
+window/stretch/mode="viewport"
 
 [editor_plugins]
 

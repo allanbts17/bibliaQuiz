@@ -1,0 +1,35 @@
+{
+	"dialogues": [
+		{
+			"level": 1,
+			"character": "Nicodemo",
+			"intro": [
+				"Hola, no te había visto por aquí. ¿Cómo te llamas?",
+				"<input>name_selector</input>",
+				"Un gusto conocerte, <player_name>. Soy Nicodemo. Fui maestro de la ley, y ahora camino como seguidor de Jesús.",
+                "Te acompañaré a lo largo de estos desafíos. ¿Estás preparado?"
+			],
+			"outro": "Bien hecho. Has completado el primer nivel y aprendido sobre la creación del mundo. Sigue avanzando y creciendo en sabiduría.",
+			"challenges": [
+				{
+					"id": 0,
+					"intro": "¿Conoces cómo comenzó todo? Este desafío trata sobre la creación del mundo.",
+					"outro": "Has respondido con atención. La creación no solo se entiende con la mente, sino también con el asombro. Buen trabajo."
+				},
+				{
+					"id": 1,
+					"intro": "Este desafío te llevará a una época de advertencia, obediencia y salvación. Observa con atención y responde con sabiduría.",
+					"outro": "Lo que acabas de repasar es más que historia. Es un llamado a escuchar, incluso cuando nadie más lo hace. Sigamos; aún hay más por descubrir."
+				},
+				{
+					"id": 2,
+					"intro": [
+						"<player_name>, a veces la sabiduría consiste en saber distinguir entre lo cierto y lo que solo lo parece.",
+                        "Este desafío incluye algo nuevo: afirmaciones que deberás marcar como verdaderas o falsas."
+					],
+					"outro": "Has dado un buen paso, <player_name>. Distinguir la verdad también es parte del camino."
+				}
+			]
+		}
+	]
+}

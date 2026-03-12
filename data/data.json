@@ -1,0 +1,49 @@
+{
+	"categories": [
+		{
+			"id": "elrc",
+			"name": "Escoger la respuesta correcta",
+			"default_time": 30
+		},
+		{
+			"id": "qd",
+			"name": "¿Quién dijo?",
+			"default_time": 30
+		},
+		{
+			"id": "elcc",
+			"name": "Escojer la cita correcta",
+			"default_time": 30
+		},
+		{
+			"id": "elp",
+			"name": "Encontrar la palabra",
+			"default_time": 30
+		},
+		{
+			"id": "qs",
+			"name": "¿Quién soy?",
+			"default_time": 30
+		},
+		{
+			"id": "vof",
+			"name": "Verdadero o Falso",
+			"default_time": 15
+		},
+		{
+			"id": "oll",
+			"name": "Ordenar las letras",
+			"default_time": 30
+		},
+		{
+			"id": "aep",
+			"name": "Adivina el personaje",
+			"default_time": 30
+		},
+		{
+			"id": "oe",
+			"name": "Ordenar eventos",
+			"default_time": 30
+		}
+	]
+}

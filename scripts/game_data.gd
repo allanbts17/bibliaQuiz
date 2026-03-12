@@ -8,10 +8,10 @@ var game_data = {
 	"achievements": [],
 	"levels_passed": []
 }
-var challenges_data = {
-	"levels":[],
+var data = {
 	"categories":[]
 }
+var level_1 = {}
 
 var config = ConfigFile.new()
 	
@@ -33,11 +33,12 @@ func load_game():
 		print("Progreso cargado exitosamente.")
 	else:
 		print("No se encontró archivo de guardado. Se usará el progreso por defecto.")
-	_get_challenges_data()
+	_get_data_files()
 		
 		
-func _get_challenges_data():
-	challenges_data = _load_json("res://data/challenges.json")
+func _get_data_files():
+	level_1 = _load_json("res://data/level1.json")
+	data = _load_json("res://data/data.json")
 	
 	
 func _load_json(ruta: String) -> Variant:

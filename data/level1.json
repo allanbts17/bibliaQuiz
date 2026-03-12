@@ -1,0 +1,253 @@
+{
+	"id": 0,
+	"name": "Level 1",
+	"character": "Nicodemo",
+	"challenges": [
+		{
+			"id": 0,
+			"dificulty": 1,
+			"max_points": 60,
+			"points_for_sucess": 40,
+			"default_question_points": 10,
+			"questions": [
+				{
+					"question": "¿Quién fue el primer hombre creado por Dios?",
+					"options": [
+						"Moisés",
+						"Abraham",
+						"Adán",
+                        "Jacob"
+					],
+					"answer_label": "Adán",
+					"answer_code": 2,
+					"categoria": "elrc"
+				},
+				{
+					"question": "¿Qué ocurría con la tierra antes de la creación?",
+					"options": [
+						"Estaba en tinieblas",
+						"Desordenada y vacía",
+						"El Espíritu de Dios se movía sobre las aguas",
+                        "Todas las anteriores"
+					],
+					"answer_label": "Todas las anteriores",
+					"answer_code": 3,
+					"categoria": "elrc"
+				},
+				{
+					"question": "¿Qué colocó Dios en el Edén para que el hombre no volviera al árbol de la vida?",
+					"options": [
+						"Un muro",
+						"Una serpiente",
+						"Un ángel con una espada de fuego",
+                        "Un río"
+					],
+					"answer_label": "Un ángel con una espada de fuego",
+					"answer_code": 2,
+					"categoria": "elrc"
+				},
+				{
+					"question": "¿Qué animal engañó a Eva en el jardín del Edén?",
+					"options": [
+						"León",
+						"Serpiente",
+						"Caballo",
+                        "Zorro"
+					],
+					"answer_label": "Serpiente",
+					"answer_code": 1,
+					"categoria": "elrc"
+				},
+				{
+					"question": "¿Cómo se llamó el hijo que nació después de Abel y Caín?",
+					"options": [
+						"Sem",
+						"Noé",
+						"Set",
+                        "Enoc"
+					],
+					"answer_label": "Set",
+					"answer_code": 2,
+					"categoria": "elrc"
+				},
+				{
+					"question": "¿Qué hizo Dios con el polvo de la tierra para formar al hombre?",
+					"options": [
+						"Lo moldeó como barro",
+						"Lo arrojó al viento",
+						"Lo cocinó en fuego",
+                        "Lo mezcló con agua del río"
+					],
+					"answer_label": "Lo moldeó como barro",
+					"answer_code": 0,
+					"categoria": "elrc"
+				},
+				{
+					"question": "¿En qué día terminó la obra que hizo y descansó?",
+					"options": [
+						"En el sexto día",
+						"Dios no descansó",
+						"En el primer día",
+                        "En el séptimo día"
+					],
+					"answer_label": "En el séptimo día",
+					"answer_code": 3,
+					"categoria": "elrc"
+				}
+			]
+		},
+		{
+			"id": 1,
+			"dificulty": 1,
+			"max_points": 60,
+			"points_for_sucess": 40,
+			"default_question_points": 10,
+			"questions": [
+				{
+					"question": "¿Cómo se llamaba el hombre que construyó el arca para salvar a su familia y a los animales?",
+					"options": [
+						"Moisés",
+						"Noé",
+						"Abraham",
+                        "David"
+					],
+					"answer_label": "Noé",
+					"answer_code": 1,
+					"categoria": "elrc"
+				},
+				{
+					"question": "¿Cuántos días y noches llovió durante el diluvio?",
+					"options": [
+						30,
+						40,
+						50,
+						70
+					],
+					"answer_label": 40,
+					"answer_code": 1,
+					"categoria": "elrc"
+				},
+				{
+					"question": "¿Cómo entraron animales entraron al arca?",
+					"options": [
+						"Corriendo violentamente",
+						"En grupos muy grandes",
+						"De dos en dos",
+                        "Volando"
+					],
+					"answer_label": "De dos en dos",
+					"answer_code": 2,
+					"categoria": "elrc"
+				},
+				{
+					"question": "¿Qué señal puso Dios en el cielo como promesa de que no habría otro diluvio igual?",
+					"options": [
+						"Un trueno",
+						"Un rayo de luz",
+						"Un arco iris",
+                        "Una nube blanca"
+					],
+					"answer_label": "Un arco iris",
+					"answer_code": 2,
+					"categoria": "elrc"
+				},
+				{
+					"question": "¿Con qué material fue recubierta el arca por dentro y por fuera?",
+					"options": [
+						"Pintura",
+						"Lodo",
+						"Brea",
+                        "Madera de olivo"
+					],
+					"answer_label": "Brea",
+					"answer_code": 2,
+					"categoria": "elrc"
+				},
+				{
+					"question": "¿En qué monte descansó el arca después del diluvio?",
+					"options": [
+						"Monte Sinaí",
+						"Monte Carmelo",
+						"Monte Ararat",
+                        "Monte de los Olivos"
+					],
+					"answer_label": "Monte Ararat",
+					"answer_code": 2,
+					"categoria": "elrc"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"dificulty": 1,
+			"max_points": 60,
+			"points_for_sucess": 40,
+			"default_question_points": 10,
+			"questions": [
+				{
+					"question": "Dios le prometió a Abraham una gran descendencia.",
+					"answer_code": true,
+					"categoria": "vof"
+				},
+				{
+					"question": "Abraham vivía en Egipto cuando Dios lo llamó.",
+					"answer_code": false,
+					"categoria": "vof"
+				},
+				{
+					"question": "“Y haré de ti una gran ____.” (Génesis 12:2)",
+					"options": [
+						"Ciudad",
+						"Tribu",
+						"Nación",
+                        "Familia"
+					],
+					"answer_label": "Nación",
+					"answer_code": 2,
+					"categoria": "elp"
+				},
+				{
+					"question": "“Y será tu descendencia como las estrellas del ____.” (Génesis 15:5)",
+					"options": [
+						"Cielo",
+						"Mundo",
+						"Firmamento",
+                        "Universo"
+					],
+					"answer_label": "Cielo",
+					"answer_code": 0,
+					"categoria": "elp"
+				},
+				{
+					"question": "“En ti serán benditas todas las ____ de la tierra.” (Génesis 12:3)",
+					"options": [
+						"Naciones",
+						"Familias",
+						"Personas",
+                        "Ciudades"
+					],
+					"answer_label": "Familias",
+					"answer_code": 1,
+					"categoria": "elp"
+				},
+				{
+					"question": "“Y creyó a Jehová, y le fue contado por ____.” (Génesis 15:6)",
+					"options": [
+						"Justicia",
+						"Fe",
+						"Amor",
+                        "Esperanza"
+					],
+					"answer_label": "Justicia",
+					"answer_code": 0,
+					"categoria": "elp"
+				},
+				{
+					"question": "Sara fue la madre de Isaac.",
+					"answer_code": true,
+					"categoria": "vof"
+				}
+			]
+		}
+	]
+}

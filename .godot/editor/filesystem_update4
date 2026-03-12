@@ -1,5 +1,5 @@
+res://scenes/game.tscn
+res://scripts/level_select.gd
+res://scenes/levelSelect.tscn
 res://scenes/main.tscn
-res://data/challenges.yaml
-res://scripts/main.gd
-res://data/challenges.json
-res://scripts/game_data.gd
+res://scripts/global_data.gd

@@ -1,0 +1,42 @@
+[gd_scene load_steps=3 format=3 uid="uid://5isd6bxrlwqo"]
+
+[ext_resource type="Script" uid="uid://bebnp4k1dkgf1" path="res://scripts/options_scene.gd" id="1_isxt7"]
+[ext_resource type="Texture2D" uid="uid://cfp27gic8vjy1" path="res://assets/background_test1.png" id="1_ll10c"]
+
+[node name="menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_isxt7")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ll10c")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="returnBtn" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 180
+text = "Regresar"
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/HBoxContainer/returnBtn" to="." method="_on_return_btn_pressed"]

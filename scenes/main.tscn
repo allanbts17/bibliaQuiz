@@ -1,8 +1,74 @@
-[gd_scene load_steps=2 format=3 uid="uid://bs6qe4ocg36d0"]
+[gd_scene format=3 uid="uid://bs6qe4ocg36d0"]
 
 [ext_resource type="Script" uid="uid://bn6sd4wer5ran" path="res://scripts/main.gd" id="1_o5qli"]
+[ext_resource type="Texture2D" uid="uid://cfp27gic8vjy1" path="res://assets/background_test1.png" id="2_0wfyh"]
+[ext_resource type="Texture2D" uid="uid://c52twmayp5dvr" path="res://assets/logo.png" id="3_sugp2"]
 
-[node name="main" type="Node2D"]
+[node name="mainMenu" type="Control" unique_id=1884556409]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 script = ExtResource("1_o5qli")
 
-[node name="Node2D" type="Node2D" parent="."]
+[node name="TextureRect" type="TextureRect" parent="." unique_id=2064953596]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_0wfyh")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=2494198]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 200
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="MarginContainer" unique_id=303427546]
+layout_mode = 2
+
+[node name="VBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer2" unique_id=737587530]
+layout_mode = 2
+theme_override_constants/separation = 16
+alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer2/VBoxContainer" unique_id=1713794671]
+custom_minimum_size = Vector2(0, 500)
+layout_mode = 2
+texture = ExtResource("3_sugp2")
+expand_mode = 3
+stretch_mode = 5
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer2" unique_id=1649906840]
+layout_mode = 2
+alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/VBoxContainer2/HBoxContainer" unique_id=1456663629]
+layout_mode = 2
+theme_override_constants/separation = 50
+
+[node name="Control" type="Control" parent="MarginContainer/VBoxContainer2/HBoxContainer/VBoxContainer" unique_id=195882155]
+layout_mode = 2
+
+[node name="startBtn" type="Button" parent="MarginContainer/VBoxContainer2/HBoxContainer/VBoxContainer" unique_id=972789857]
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "Jugar"
+
+[node name="optionsBtn" type="Button" parent="MarginContainer/VBoxContainer2/HBoxContainer/VBoxContainer" unique_id=1095310229]
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "Opciones"
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer2/HBoxContainer/VBoxContainer/startBtn" to="." method="_on_start_btn_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer2/HBoxContainer/VBoxContainer/optionsBtn" to="." method="_on_options_btn_pressed"]

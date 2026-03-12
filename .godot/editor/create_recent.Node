@@ -1,1 +1,10 @@
+Label
+HBoxContainer
+TextureRect
+Control
+TouchScreenButton
+Sprite2D
+Button
+VBoxContainer
+MarginContainer
 Node2D
