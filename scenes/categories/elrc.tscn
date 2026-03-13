@@ -1,0 +1,60 @@
+[gd_scene format=3 uid="uid://baj0s0ta23ur"]
+
+[ext_resource type="Script" uid="uid://dheh8x8j6lb0n" path="res://scripts/elrc.gd" id="1_l4qoo"]
+
+[node name="MarginContainer" type="MarginContainer" unique_id=367111364]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 200
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+script = ExtResource("1_l4qoo")
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="." unique_id=2076104068]
+layout_mode = 2
+
+[node name="VBoxContainer" type="HBoxContainer" parent="VBoxContainer2" unique_id=654489814]
+layout_mode = 2
+theme_override_constants/separation = 16
+alignment = 1
+
+[node name="question" type="Label" parent="VBoxContainer2/VBoxContainer" unique_id=1988327921]
+custom_minimum_size = Vector2(500, 96)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 70
+text = "Pregunta"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer2" unique_id=264893135]
+layout_mode = 2
+alignment = 1
+
+[node name="opc1" type="Button" parent="VBoxContainer2/HBoxContainer" unique_id=1664240330]
+layout_mode = 2
+theme_override_font_sizes/font_size = 70
+text = "Opción 1"
+
+[node name="opc2" type="Button" parent="VBoxContainer2/HBoxContainer" unique_id=914196198]
+layout_mode = 2
+theme_override_font_sizes/font_size = 70
+text = "Opción 2"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer2" unique_id=1016755763]
+layout_mode = 2
+alignment = 1
+
+[node name="opc3" type="Button" parent="VBoxContainer2/HBoxContainer2" unique_id=790123477]
+layout_mode = 2
+theme_override_font_sizes/font_size = 70
+text = "Opción 3"
+
+[node name="opc4" type="Button" parent="VBoxContainer2/HBoxContainer2" unique_id=1643038044]
+layout_mode = 2
+theme_override_font_sizes/font_size = 70
+text = "Opción 4"

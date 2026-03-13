@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://d3iqhr5dmygvs"]
 
+[ext_resource type="Script" uid="uid://bhs5tr3y53g6b" path="res://scripts/game.gd" id="1_lnu2h"]
 [ext_resource type="Texture2D" uid="uid://cfp27gic8vjy1" path="res://assets/background_test1.png" id="1_uwrxv"]
+[ext_resource type="PackedScene" uid="uid://baj0s0ta23ur" path="res://scenes/categories/elrc.tscn" id="3_lbhrr"]
 
 [node name="Control" type="Control" unique_id=1550316644]
 layout_mode = 3
@@ -9,6 +11,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_lnu2h")
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=700145699]
 layout_mode = 1
@@ -18,3 +21,12 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("1_uwrxv")
+
+[node name="elrc_test" parent="." unique_id=367111364 instance=ExtResource("3_lbhrr")]
+visible = false
+layout_mode = 0
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+grow_horizontal = 1
+grow_vertical = 1

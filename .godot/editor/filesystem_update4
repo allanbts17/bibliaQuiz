@@ -1,5 +1,5 @@
+res://scenes/categories/elrc.tscn
+res://scripts/category.gd
 res://scenes/game.tscn
-res://scripts/level_select.gd
-res://scenes/levelSelect.tscn
-res://scenes/main.tscn
-res://scripts/global_data.gd
+res://scripts/elrc.gd
+res://scripts/game.gd
