@@ -42,14 +42,18 @@ theme_override_constants/separation = 50
 alignment = 1
 
 [node name="opc1" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer" unique_id=1664240330]
+custom_minimum_size = Vector2(320, 100)
 layout_mode = 2
-theme_override_font_sizes/font_size = 70
+theme_override_font_sizes/font_size = 40
 text = "Opción 1"
+autowrap_mode = 3
 
 [node name="opc2" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer" unique_id=914196198]
+custom_minimum_size = Vector2(320, 100)
 layout_mode = 2
-theme_override_font_sizes/font_size = 70
+theme_override_font_sizes/font_size = 40
 text = "Opción 2"
+autowrap_mode = 3
 
 [node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer/VBoxContainerButtons" unique_id=1016755763]
 layout_mode = 2
@@ -57,14 +61,18 @@ theme_override_constants/separation = 50
 alignment = 1
 
 [node name="opc3" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer2" unique_id=790123477]
+custom_minimum_size = Vector2(320, 100)
 layout_mode = 2
-theme_override_font_sizes/font_size = 70
+theme_override_font_sizes/font_size = 40
 text = "Opción 3"
+autowrap_mode = 3
 
 [node name="opc4" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer2" unique_id=1643038044]
+custom_minimum_size = Vector2(320, 100)
 layout_mode = 2
-theme_override_font_sizes/font_size = 70
+theme_override_font_sizes/font_size = 40
 text = "Opción 4"
+autowrap_mode = 3
 
 [connection signal="pressed" from="VBoxContainer/VBoxContainerButtons/HBoxContainer/opc1" to="." method="_on_opc_1_pressed"]
 [connection signal="pressed" from="VBoxContainer/VBoxContainerButtons/HBoxContainer/opc2" to="." method="_on_opc_2_pressed"]
