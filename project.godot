@@ -21,7 +21,7 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-GameData="*res://scripts/game_data.gd"
+GameData="*res://scripts/globals/game_data.gd"
 GlobalData="*uid://vo5ohgc5yngt"
 
 [display]

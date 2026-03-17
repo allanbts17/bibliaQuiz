@@ -1,5 +1,6 @@
 res://scenes/categories/elrc.tscn
 res://scripts/category.gd
 res://scenes/game.tscn
-res://scripts/elrc.gd
 res://scripts/game.gd
+res://scripts/elrc.gd
+res://scenes/main.tscn
