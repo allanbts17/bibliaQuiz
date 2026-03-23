@@ -1,0 +1,69 @@
+[gd_scene format=3 uid="uid://c48lqc3tegixv"]
+
+[ext_resource type="Script" uid="uid://d0118e141bhrr" path="res://scripts/categories/true_or_false.gd" id="1_kl0f8"]
+
+[node name="MarginContainer" type="MarginContainer" unique_id=1102671410]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 200
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+script = ExtResource("1_kl0f8")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1287947359]
+layout_mode = 2
+theme_override_constants/separation = 50
+
+[node name="TimeLabel" type="Label" parent="VBoxContainer" unique_id=1082451093]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "30"
+horizontal_alignment = 1
+
+[node name="VBoxContainerQuestion" type="HBoxContainer" parent="VBoxContainer" unique_id=1208532234]
+layout_mode = 2
+theme_override_constants/separation = 16
+alignment = 1
+
+[node name="question" type="Label" parent="VBoxContainer/VBoxContainerQuestion" unique_id=191845374]
+custom_minimum_size = Vector2(500, 96)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 70
+text = "Pregunta"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="VBoxContainerButtons" type="VBoxContainer" parent="VBoxContainer" unique_id=604991641]
+layout_mode = 2
+theme_override_constants/separation = 50
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/VBoxContainerButtons" unique_id=1783578835]
+layout_mode = 2
+theme_override_constants/separation = 50
+alignment = 1
+
+[node name="True" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer" unique_id=604531901]
+custom_minimum_size = Vector2(450, 200)
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Verdadero"
+autowrap_mode = 3
+
+[node name="False" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer" unique_id=1229471960]
+custom_minimum_size = Vector2(450, 200)
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Falso"
+autowrap_mode = 3
+
+[node name="Timer" type="Timer" parent="." unique_id=2142770614]
+autostart = true
+
+[connection signal="pressed" from="VBoxContainer/VBoxContainerButtons/HBoxContainer/True" to="." method="_on_true_pressed"]
+[connection signal="pressed" from="VBoxContainer/VBoxContainerButtons/HBoxContainer/False" to="." method="_on_false_pressed"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

@@ -100,7 +100,7 @@
 			"id": 1,
 			"dificulty": 1,
 			"max_points": 60,
-			"points_for_sucess": 40,
+			"points_for_success": 40,
 			"default_question_points": 10,
 			"questions": [
 				{
@@ -181,7 +181,7 @@
 			"id": 2,
 			"dificulty": 1,
 			"max_points": 60,
-			"points_for_sucess": 40,
+			"points_for_success": 40,
 			"default_question_points": 10,
 			"questions": [
 				{
@@ -245,6 +245,31 @@
 				{
 					"question": "Sara fue la madre de Isaac.",
 					"answer_code": true,
+					"category": "vof"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"dificulty": 1,
+			"max_points": 60,
+			"points_for_success": 40,
+			"default_question_points": 10,
+			"questions": [
+				{
+					"question": "¿Quién fue el libertador de Egipto?",
+					"sorted": "SMEIOS",
+					"answer": "MOISES",
+					"category": "oll"
+				},
+				{
+					"question": "Dios le prometió a Abraham una gran descendencia.",
+					"answer_code": true,
+					"category": "vof"
+				},
+				{
+					"question": "Abraham vivía en Egipto cuando Dios lo llamó.",
+					"answer_code": false,
 					"category": "vof"
 				}
 			]

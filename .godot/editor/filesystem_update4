@@ -1,6 +1,2 @@
-res://scenes/categories/elrc.tscn
-res://scripts/category.gd
-res://scenes/game.tscn
-res://scripts/game.gd
-res://scripts/elrc.gd
-res://scenes/main.tscn
+res://data/level1.json
+res://scenes/categories/sort_letters.tscn

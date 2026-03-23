@@ -11,7 +11,7 @@ var points_for_sucess: int
 var default_question_points: int
 var question: String
 var game_scene: Game
-
+		
 func on_success(points: int):
 	game_scene.question_step(true,points,30)
 

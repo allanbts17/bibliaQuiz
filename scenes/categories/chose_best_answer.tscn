@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://baj0s0ta23ur"]
 
-[ext_resource type="Script" uid="uid://dheh8x8j6lb0n" path="res://scripts/elrc.gd" id="1_l4qoo"]
+[ext_resource type="Script" uid="uid://dheh8x8j6lb0n" path="res://scripts/categories/chose_best_answer.gd" id="1_tlgea"]
 
 [node name="MarginContainer" type="MarginContainer" unique_id=367111364]
 anchors_preset = 15
@@ -12,11 +12,17 @@ theme_override_constants/margin_left = 12
 theme_override_constants/margin_top = 200
 theme_override_constants/margin_right = 12
 theme_override_constants/margin_bottom = 12
-script = ExtResource("1_l4qoo")
+script = ExtResource("1_tlgea")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=2076104068]
 layout_mode = 2
 theme_override_constants/separation = 50
+
+[node name="TimeLabel" type="Label" parent="VBoxContainer" unique_id=482619582]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "30"
+horizontal_alignment = 1
 
 [node name="VBoxContainerQuestion" type="HBoxContainer" parent="VBoxContainer" unique_id=654489814]
 layout_mode = 2
@@ -42,14 +48,14 @@ theme_override_constants/separation = 50
 alignment = 1
 
 [node name="opc1" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer" unique_id=1664240330]
-custom_minimum_size = Vector2(320, 100)
+custom_minimum_size = Vector2(450, 200)
 layout_mode = 2
 theme_override_font_sizes/font_size = 40
 text = "Opción 1"
 autowrap_mode = 3
 
 [node name="opc2" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer" unique_id=914196198]
-custom_minimum_size = Vector2(320, 100)
+custom_minimum_size = Vector2(450, 200)
 layout_mode = 2
 theme_override_font_sizes/font_size = 40
 text = "Opción 2"
@@ -61,20 +67,24 @@ theme_override_constants/separation = 50
 alignment = 1
 
 [node name="opc3" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer2" unique_id=790123477]
-custom_minimum_size = Vector2(320, 100)
+custom_minimum_size = Vector2(450, 200)
 layout_mode = 2
 theme_override_font_sizes/font_size = 40
 text = "Opción 3"
 autowrap_mode = 3
 
 [node name="opc4" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer2" unique_id=1643038044]
-custom_minimum_size = Vector2(320, 100)
+custom_minimum_size = Vector2(450, 200)
 layout_mode = 2
 theme_override_font_sizes/font_size = 40
 text = "Opción 4"
 autowrap_mode = 3
 
+[node name="Timer" type="Timer" parent="." unique_id=892348571]
+autostart = true
+
 [connection signal="pressed" from="VBoxContainer/VBoxContainerButtons/HBoxContainer/opc1" to="." method="_on_opc_1_pressed"]
 [connection signal="pressed" from="VBoxContainer/VBoxContainerButtons/HBoxContainer/opc2" to="." method="_on_opc_2_pressed"]
 [connection signal="pressed" from="VBoxContainer/VBoxContainerButtons/HBoxContainer2/opc3" to="." method="_on_opc_3_pressed"]
 [connection signal="pressed" from="VBoxContainer/VBoxContainerButtons/HBoxContainer2/opc4" to="." method="_on_opc_4_pressed"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

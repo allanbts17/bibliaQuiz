@@ -1,0 +1,105 @@
+[gd_scene format=3 uid="uid://bvkbil2mimpee"]
+
+[node name="MarginContainer" type="MarginContainer" unique_id=1461904123]
+offset_right = 1080.0
+offset_bottom = 1920.0
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 200
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=312456749]
+layout_mode = 2
+theme_override_constants/separation = 50
+
+[node name="TimeLabel" type="Label" parent="VBoxContainer" unique_id=1805190913]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "30"
+horizontal_alignment = 1
+
+[node name="VBoxContainerQuestion" type="HBoxContainer" parent="VBoxContainer" unique_id=779466382]
+layout_mode = 2
+theme_override_constants/separation = 16
+alignment = 1
+
+[node name="question" type="Label" parent="VBoxContainer/VBoxContainerQuestion" unique_id=1074723040]
+custom_minimum_size = Vector2(500, 96)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 70
+text = "Pregunta"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="VBoxContainerButtons" type="VBoxContainer" parent="VBoxContainer" unique_id=1487037490]
+layout_mode = 2
+theme_override_constants/separation = 50
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/VBoxContainerButtons" unique_id=195674393]
+layout_mode = 2
+theme_override_constants/separation = 50
+alignment = 1
+
+[node name="a" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer" unique_id=1430923034]
+custom_minimum_size = Vector2(100, 40)
+layout_mode = 2
+theme_override_font_sizes/font_size = 60
+text = "A"
+autowrap_mode = 3
+
+[node name="a2" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer" unique_id=255577808]
+custom_minimum_size = Vector2(100, 40)
+layout_mode = 2
+theme_override_font_sizes/font_size = 60
+text = "A"
+autowrap_mode = 3
+
+[node name="a3" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer" unique_id=601520475]
+custom_minimum_size = Vector2(100, 40)
+layout_mode = 2
+theme_override_font_sizes/font_size = 60
+text = "A"
+autowrap_mode = 3
+
+[node name="a4" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer" unique_id=1942975196]
+custom_minimum_size = Vector2(100, 40)
+layout_mode = 2
+theme_override_font_sizes/font_size = 60
+text = "A"
+autowrap_mode = 3
+
+[node name="a5" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer" unique_id=2079593161]
+custom_minimum_size = Vector2(100, 40)
+layout_mode = 2
+theme_override_font_sizes/font_size = 60
+text = "A"
+autowrap_mode = 3
+
+[node name="a6" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer" unique_id=1695413166]
+custom_minimum_size = Vector2(100, 40)
+layout_mode = 2
+theme_override_font_sizes/font_size = 60
+text = "A"
+autowrap_mode = 3
+
+[node name="a7" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer" unique_id=324632419]
+custom_minimum_size = Vector2(100, 40)
+layout_mode = 2
+theme_override_font_sizes/font_size = 60
+text = "A"
+autowrap_mode = 3
+
+[node name="a8" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer" unique_id=382658591]
+custom_minimum_size = Vector2(100, 40)
+layout_mode = 2
+theme_override_font_sizes/font_size = 60
+text = "A"
+autowrap_mode = 3
+
+[node name="a9" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer" unique_id=980748682]
+custom_minimum_size = Vector2(100, 40)
+layout_mode = 2
+theme_override_font_sizes/font_size = 60
+text = "A"
+autowrap_mode = 3

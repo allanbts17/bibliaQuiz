@@ -1,3 +1,4 @@
+MarginContainer
 VBoxContainer
 Label
 HBoxContainer
@@ -6,5 +7,4 @@ Control
 TouchScreenButton
 Sprite2D
 Button
-MarginContainer
 Node2D
