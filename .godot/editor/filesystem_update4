@@ -1,2 +1,3 @@
 res://data/level1.json
 res://scenes/categories/sort_letters.tscn
+res://scripts/categories/sort_letters.gd

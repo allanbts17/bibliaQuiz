@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://bvkbil2mimpee"]
 
+[ext_resource type="Script" uid="uid://b44428oftb8ff" path="res://scripts/categories/sort_letters.gd" id="1_a5mlh"]
+
 [node name="MarginContainer" type="MarginContainer" unique_id=1461904123]
 offset_right = 1080.0
 offset_bottom = 1920.0
@@ -7,6 +9,7 @@ theme_override_constants/margin_left = 12
 theme_override_constants/margin_top = 200
 theme_override_constants/margin_right = 12
 theme_override_constants/margin_bottom = 12
+script = ExtResource("1_a5mlh")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=312456749]
 layout_mode = 2
@@ -36,68 +39,69 @@ autowrap_mode = 3
 layout_mode = 2
 theme_override_constants/separation = 50
 
-[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/VBoxContainerButtons" unique_id=195674393]
+[node name="HFlowContainer" type="HFlowContainer" parent="VBoxContainer/VBoxContainerButtons" unique_id=195674393]
 layout_mode = 2
-theme_override_constants/separation = 50
+theme_override_constants/h_separation = 50
+theme_override_constants/v_separation = 50
 alignment = 1
 
-[node name="a" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer" unique_id=1430923034]
+[node name="a" type="Button" parent="VBoxContainer/VBoxContainerButtons/HFlowContainer" unique_id=1430923034]
 custom_minimum_size = Vector2(100, 40)
 layout_mode = 2
 theme_override_font_sizes/font_size = 60
 text = "A"
 autowrap_mode = 3
 
-[node name="a2" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer" unique_id=255577808]
+[node name="a2" type="Button" parent="VBoxContainer/VBoxContainerButtons/HFlowContainer" unique_id=255577808]
 custom_minimum_size = Vector2(100, 40)
 layout_mode = 2
 theme_override_font_sizes/font_size = 60
 text = "A"
 autowrap_mode = 3
 
-[node name="a3" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer" unique_id=601520475]
+[node name="a3" type="Button" parent="VBoxContainer/VBoxContainerButtons/HFlowContainer" unique_id=601520475]
 custom_minimum_size = Vector2(100, 40)
 layout_mode = 2
 theme_override_font_sizes/font_size = 60
 text = "A"
 autowrap_mode = 3
 
-[node name="a4" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer" unique_id=1942975196]
+[node name="a4" type="Button" parent="VBoxContainer/VBoxContainerButtons/HFlowContainer" unique_id=1942975196]
 custom_minimum_size = Vector2(100, 40)
 layout_mode = 2
 theme_override_font_sizes/font_size = 60
 text = "A"
 autowrap_mode = 3
 
-[node name="a5" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer" unique_id=2079593161]
+[node name="a5" type="Button" parent="VBoxContainer/VBoxContainerButtons/HFlowContainer" unique_id=2079593161]
 custom_minimum_size = Vector2(100, 40)
 layout_mode = 2
 theme_override_font_sizes/font_size = 60
 text = "A"
 autowrap_mode = 3
 
-[node name="a6" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer" unique_id=1695413166]
+[node name="a6" type="Button" parent="VBoxContainer/VBoxContainerButtons/HFlowContainer" unique_id=1695413166]
 custom_minimum_size = Vector2(100, 40)
 layout_mode = 2
 theme_override_font_sizes/font_size = 60
 text = "A"
 autowrap_mode = 3
 
-[node name="a7" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer" unique_id=324632419]
+[node name="a7" type="Button" parent="VBoxContainer/VBoxContainerButtons/HFlowContainer" unique_id=324632419]
 custom_minimum_size = Vector2(100, 40)
 layout_mode = 2
 theme_override_font_sizes/font_size = 60
 text = "A"
 autowrap_mode = 3
 
-[node name="a8" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer" unique_id=382658591]
+[node name="a8" type="Button" parent="VBoxContainer/VBoxContainerButtons/HFlowContainer" unique_id=382658591]
 custom_minimum_size = Vector2(100, 40)
 layout_mode = 2
 theme_override_font_sizes/font_size = 60
 text = "A"
 autowrap_mode = 3
 
-[node name="a9" type="Button" parent="VBoxContainer/VBoxContainerButtons/HBoxContainer" unique_id=980748682]
+[node name="a9" type="Button" parent="VBoxContainer/VBoxContainerButtons/HFlowContainer" unique_id=980748682]
 custom_minimum_size = Vector2(100, 40)
 layout_mode = 2
 theme_override_font_sizes/font_size = 60
